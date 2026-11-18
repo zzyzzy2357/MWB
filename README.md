@@ -160,8 +160,8 @@ https://raw.githubusercontent.com/zzyzzy2357/MWB-Sites/main/sites.json
 站点编辑窗左下角点「**分享到公共站点库**」：
 软件会自动拼好名称、地址、类型、充值比例，打开发布在 MWB-Sites 的提交页，点 Submit 就行。
 
-提交后机器人给 issue 打上 `site-submission` 标签，Actions 校验地址、去重、合并进 `sites.json`，
-之后所有人都能拉到。
+提交后会带上 `site-submission` 标签，校验地址、去重后合并进 `sites.json`，
+之后所有订阅的人都能拉到（仓库里附了 Actions 脚本，开启后可全自动合并）。
 
 **只有 5 个字段**：`name` / `baseUrl` / `kind` / `rechargeRate` / `note`。
 后端做了字段白名单，**账号、密码、密钥不可能被带出去**。
