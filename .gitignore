@@ -1,0 +1,11 @@
+# 发布产物走 Releases，不进仓库
+*.zip
+*.exe
+*.7z
+
+# 系统与编辑器
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/

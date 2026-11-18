@@ -1,0 +1,15 @@
+{
+  "format": "mwb-sites",
+  "version": 2,
+  "updatedAt": "2026-11-17",
+  "说明": "社区维护的公开中转站清单，只包含站点名称、地址、类型与充值比例，不包含任何账号密码。",
+  "sites": [
+    {
+      "name": "示例站点 A",
+      "baseUrl": "https://api.example.com",
+      "kind": "NewApi",
+      "rechargeRate": 1,
+      "note": "社区提交"
+    }
+  ]
+}
