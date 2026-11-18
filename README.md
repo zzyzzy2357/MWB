@@ -13,7 +13,7 @@
 <sub>
 
 ![平台](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4?style=flat-square)
-![版本](https://img.shields.io/badge/version-2.26.0-brightgreen?style=flat-square)
+![版本](https://img.shields.io/badge/version-2.26.1-brightgreen?style=flat-square)
 ![公益](https://img.shields.io/badge/%E5%85%AC%E7%9B%8A%E9%A1%B9%E7%9B%AE-%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9-orange?style=flat-square)
 ![数据](https://img.shields.io/badge/%E5%86%85%E7%BD%AE%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE-%E6%97%A0-lightgrey?style=flat-square)
 
@@ -160,8 +160,7 @@ https://raw.githubusercontent.com/zzyzzy2357/MWB-Sites/main/sites.json
 站点编辑窗左下角点「**分享到公共站点库**」：
 软件会自动拼好名称、地址、类型、充值比例，打开发布在 MWB-Sites 的提交页，点 Submit 就行。
 
-提交后会带上 `site-submission` 标签，校验地址、去重后合并进 `sites.json`，
-之后所有订阅的人都能拉到（仓库里附了 Actions 脚本，开启后可全自动合并）。
+提交后机器人自动校验地址、按域名去重、合并进 `sites.json`，一分钟左右所有订阅的人就能拉到。
 
 **只有 5 个字段**：`name` / `baseUrl` / `kind` / `rechargeRate` / `note`。
 后端做了字段白名单，**账号、密码、密钥不可能被带出去**。
@@ -220,7 +219,7 @@ MWB 是个人的业余项目，做出来是因为自己确实每天要翻十几�
 
 ## 更新记录
 
-见 [CHANGELOG.md](CHANGELOG.md)。当前版本 **2.26.0**。
+见 [CHANGELOG.md](CHANGELOG.md)。当前版本 **2.26.1**。
 
 软件内「设置 → 版本更新」填入本仓库的 Releases 地址，即可检查更新；
 也可以手动下载新包覆盖，**数据目录不会被动到**。
